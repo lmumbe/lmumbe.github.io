@@ -1,0 +1,14 @@
+.navbar-start {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.navbar-item img {
+  max-height: 50px;
+}
+#cover-image{
+  min-width: 100vw;
+}
+
+.navbar {
+  background-color: #303030 !important;
+}
