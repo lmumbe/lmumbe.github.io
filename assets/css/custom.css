@@ -19,7 +19,7 @@
   color: #f5d975;
 }
 .hero-body {
-  min-height: 55vh;
+  height: 35vw;
 }
 .mail-btn {
   background-color: transparent;
@@ -37,5 +37,8 @@
   }
   .container {
     margin: auto;
+  }
+  .hero-body {
+    height: 35vh;
   }
 }
