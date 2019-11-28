@@ -23,6 +23,11 @@
   min-height: 55vh;
 }
 .mail-btn {
+  background-color: transparent;
+  border-color: #f5d975;
+  color: #f5d975;
+}
+.mail-btn:hover {
   background-color: #f5d975;
 }
 
