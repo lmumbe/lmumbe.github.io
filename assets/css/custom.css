@@ -1,14 +1,45 @@
-.navbar-start {
-    margin-left: auto;
-    margin-right: auto;
-  }
-.navbar-item img {
+.level-item img {
   max-height: 50px;
 }
-#cover-image{
-  min-width: 100vw;
+.level {
+  background-color: #303030 !important;
+}
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+}
+.hero-background {
+  position: absolute;
+  object-fit: fill;
+  object-position: top right;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.name {
+  color: #f5d975;
+}
+.hero-body {
+  min-height: 55vh;
+}
+.mail-btn {
+  background-color: #f5d975;
 }
 
-.navbar {
-  background-color: #303030 !important;
+/* Mobile Only */
+@media screen and (max-width: 50em) {
+  html {
+    font-size: 3vw;
+  }
+  .container {
+    margin: auto;
+  }
+  .hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: top right;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
 }
