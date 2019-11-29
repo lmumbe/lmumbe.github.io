@@ -23,6 +23,9 @@
   display:flex;
   flex-direction: column;
 }
+.portfolio-image-image{
+  object-fit: cover;
+}
 .hero-body {
   min-height: 35vw;
 }
