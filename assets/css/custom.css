@@ -19,7 +19,7 @@
   color: #f5d975;
 }
 .hero-body {
-  height: 35vw;
+  min-height: 35vw;
 }
 .mail-btn {
   background-color: transparent;
@@ -29,16 +29,19 @@
 .mail-btn:hover {
   background-color: #f5d975;
 }
+.resume-btn {
+  background-color:  #f5d975;
+}
 
 /* Mobile Only */
-@media screen and (max-width: 50em) {
-  html {
+@media screen and (max-width: 823px){
+  html,  .title {
     font-size: 3vw;
   }
   .container {
     margin: auto;
   }
   .hero-body {
-    height: 35vh;
+    min-height: 35vh;
   }
 }
