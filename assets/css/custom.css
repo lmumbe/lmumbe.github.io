@@ -42,7 +42,7 @@
 }
 
 /* Mobile Only */
-@media screen and (max-width: 823px){
+@media screen and (max-width: 1024px){
   html,  .title {
     font-size: 3vw;
   }
