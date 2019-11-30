@@ -44,7 +44,7 @@
 /* Mobile Only */
 @media screen and (max-width: 1024px){
   html,  .title {
-    font-size: 3vw;
+    font-size: 1.3rem;
   }
   .container {
     margin: auto;
@@ -52,4 +52,10 @@
   .hero-body {
     min-height: 35vh;
   }
+}
+
+@media screen and (max-width: 700px){
+html,  .title {
+  font-size: 3.7vw;
+}
 }
